@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Local preview/server artifacts
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp

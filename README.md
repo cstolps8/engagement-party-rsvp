@@ -30,6 +30,10 @@ Open `index.html` and replace the placeholders:
 - `YOUR_GOOGLE_FORM_LINK`
 - `YOUR_GOOGLE_FORM_EMBED_LINK`
 
+Prompt to add more header background photos:
+Use the existing hero collage pattern in this project. Add another `<img>` inside the `.photo-collage` container in [index.html](index.html) and define a matching `.photo-*` class in [styles.css](styles.css). Keep the images overlapping, slightly rotated, and softened with a border and shadow so they feel like a collage. Preserve contrast for the hero text by keeping the overlay in place and avoiding overly bright or busy images.
+
+
 ### Get the right links
 
 In Google Forms:
