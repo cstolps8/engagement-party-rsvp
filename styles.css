@@ -262,6 +262,25 @@ li {
   margin-top: 0;
 }
 
+.invite-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem;
+  width: min(100%, 100%);
+  margin: 0 auto 1rem;
+}
+
+.invite-image__photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+  border: 1px solid rgba(234, 196, 108, 0.28);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+}
+
 .embed-wrap {
   margin-top: 1rem;
   border: 1px dashed rgba(234, 196, 108, 0.4);
@@ -345,5 +364,9 @@ footer {
 
   .card {
     padding: 1rem;
+  }
+
+  .invite-image__photo {
+    width: 100%;
   }
 }
