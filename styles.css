@@ -88,6 +88,10 @@ body {
   left: 50%;
   width: min(20vw, 190px);
   height: min(22vw, 210px);
+  max-width: 190px;
+  max-height: 210px;
+  object-fit: cover;
+  object-position: center;
   transform: translate(-50%, -50%) rotate(-2deg);
 }
 
