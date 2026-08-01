@@ -40,6 +40,10 @@ body {
   pointer-events: none;
 }
 
+.photo-collage img.photo {
+  max-width: none;
+}
+
 .photo {
   position: absolute;
   display: block;
@@ -86,10 +90,10 @@ body {
 .photo-center {
   top: 48%;
   left: 50%;
-  width: min(20vw, 190px);
-  height: min(22vw, 210px);
-  max-width: 190px;
-  max-height: 210px;
+  width: clamp(120px, 20vw, 190px) !important;
+  height: clamp(140px, 22vw, 210px) !important;
+  max-width: 190px !important;
+  max-height: 210px !important;
   object-fit: cover;
   object-position: center;
   transform: translate(-50%, -50%) rotate(-2deg);
@@ -330,8 +334,8 @@ footer {
   .photo-center {
     top: 46%;
     left: 50%;
-    width: 30vw;
-    height: 22vh;
+    width: clamp(110px, 30vw, 180px) !important;
+    height: clamp(130px, 22vh, 200px) !important;
   }
 
   .photo-top-left-small,
